@@ -47,7 +47,7 @@ public class JdbcTemplatePublicAuction implements PublicAuction {
     }
 
 
-    // функция не реализована.
+    // функция будет реализована позднее.
     @Override
     public Map<User, Double> getAvgItemCost() {
         //SELECT avg(START_PRICE) FROM ITEMS GROUP BY USER_ID
@@ -63,7 +63,7 @@ public class JdbcTemplatePublicAuction implements PublicAuction {
     }
 
 
-    // функция не реализована
+    // функция будет реализована позднее
     @Override
     public Map<Item, Bid> getMaxBidsForEveryItem() {
 
